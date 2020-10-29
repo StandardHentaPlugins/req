@@ -7,4 +7,5 @@
     "build": "tsc --project tsconfig.json",
     "release-it": "yarn version --patch && git push --follow-tags"
   },
+  "version": "0.0.1"
 }
