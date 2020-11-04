@@ -7,5 +7,5 @@
   "scripts": {
     "release-it": "yarn version --patch && git push --follow-tags"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
