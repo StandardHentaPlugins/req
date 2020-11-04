@@ -1,10 +1,10 @@
 {
   "main": "src/index.js",
+  "type": "module",
   "dependencies": {
     "vk-io": "^4.0.0-rc.30"
   },
   "scripts": {
-    "build": "tsc --project tsconfig.json",
     "release-it": "yarn version --patch && git push --follow-tags"
   },
   "version": "0.0.2"
