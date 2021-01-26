@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      "outDir": "lib/",
+      "types": ["node"],
+      "module": "ES2020",
+      "target": "ES2019",
+      "skipLibCheck": true,
+      "moduleResolution": "node"
+  },
+  "filesGlob": [
+		"src/*.ts"
+	]
+}
