@@ -2,11 +2,11 @@
   "main": "lib/index.js",
   "type": "module",
   "scripts": {
-		"build": "tsc --project tsconfig.json",
+    "build": "tsc --project tsconfig.json",
     "release-it": "yarn version --patch && git push --follow-tags"
   },
-  "version": "0.0.3",
+  "version": "0.1.0",
   "devDependencies": {
-		"@types/node": "^13.13.0"
-	}
+    "@types/node": "^13.13.0"
+  }
 }
